@@ -174,21 +174,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202206121228485_InitialModel.cs" />
-    <Compile Include="Migrations\202206121228485_InitialModel.Designer.cs">
-      <DependentUpon>202206121228485_InitialModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202206121231059_CreateTableCourse.cs" />
-    <Compile Include="Migrations\202206121231059_CreateTableCourse.Designer.cs">
-      <DependentUpon>202206121231059_CreateTableCourse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202206121232073_PopulateCategoryTable.cs" />
-    <Compile Include="Migrations\202206121232073_PopulateCategoryTable.Designer.cs">
-      <DependentUpon>202206121232073_PopulateCategoryTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202206121300515_AddNameColumnToApplicationUse.cs" />
-    <Compile Include="Migrations\202206121300515_AddNameColumnToApplicationUse.Designer.cs">
-      <DependentUpon>202206121300515_AddNameColumnToApplicationUse.cs</DependentUpon>
+    <Compile Include="Migrations\202206130122385_Update DB.cs" />
+    <Compile Include="Migrations\202206130122385_Update DB.Designer.cs">
+      <DependentUpon>202206130122385_Update DB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -278,17 +266,8 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202206121228485_InitialModel.resx">
-      <DependentUpon>202206121228485_InitialModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202206121231059_CreateTableCourse.resx">
-      <DependentUpon>202206121231059_CreateTableCourse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202206121232073_PopulateCategoryTable.resx">
-      <DependentUpon>202206121232073_PopulateCategoryTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202206121300515_AddNameColumnToApplicationUse.resx">
-      <DependentUpon>202206121300515_AddNameColumnToApplicationUse.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202206130122385_Update DB.resx">
+      <DependentUpon>202206130122385_Update DB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
