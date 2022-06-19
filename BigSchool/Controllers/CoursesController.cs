@@ -55,7 +55,7 @@ namespace BigSchool.Controllers
             return RedirectToAction("Index", "Home");
         }
         
-        /*[Authorize]
+        [Authorize]
         public ActionResult Attending()
         {
             var userId = User.Identity.GetUserId();
@@ -72,7 +72,8 @@ namespace BigSchool.Controllers
                 UpcommingCourses = courses,
                 ShowAction = User.Identity.IsAuthenticated
             };
+            return View(viewModel);
         }
-        return View(viewModel);*/
+        
     }
 }
